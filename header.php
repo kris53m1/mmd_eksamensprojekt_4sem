@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<meta name="robots" content="noindex, nofollow">
 <?php
 	elegant_description();
 	elegant_keywords();
