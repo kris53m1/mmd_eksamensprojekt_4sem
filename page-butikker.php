@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
     <title>butikker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="http://kristinesdomain.com/mmd_eksamensprojekt_peech/wordpress/kontakt/wp-content/themes/divi_child/style.css"/>
     
+
+  </head>
+    <?php get_header(); ?>
+ 
+    <body>
+
     <style> 
 body {
-  background-image: url('.../langbaggrund.jpg');
+  background-image: url('http://kristinesdomain.com/mmd_eksamensprojekt_peech/wordpress/wp-content/uploads/2022/12/langbaggrund-scaled.jpg');
 }
 
 
@@ -21,11 +28,6 @@ body {
     color: #10163E;
 }
 </style>
-  </head>
-    <?php get_header(); ?>
- 
-    <body>
-
 
 <main class="container-fluid">
 
